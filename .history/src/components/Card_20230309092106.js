@@ -7,7 +7,7 @@ export default function Card({ result }) {
   return (
     <div
       className="cursor-pointer hover:shadow-slate-400 shadow-md border border-slate-400 m-2 sm:p-3 sm:hover:shadow-slate-400 sm:shadow-md rounded-lg 
-    sm:border sm:border-slate-400 sm:m-2 transition-shadow duration-200 group dark:hover:shadow-slate-600"
+    sm:border sm:border-slate-400 sm:m-2 transition-shadow duration-200 group"
     >
       <Link href={`/movie/${result.id}`}>
         <Image
@@ -27,9 +27,9 @@ export default function Card({ result }) {
           <h2 className="truncate text-lg font-bold">
             {result.title || result.name}
           </h2>
-          <p className="flex items-center xl:text-xs">
+          <p className="flex items-center text-sm">
             {result.release_date || result.first_air_date}
-            <FiThumbsUp className="h-5  mr-2 ml-4" /> {result.vote_count}
+            <FiThumbsUp className="h-5 mr-2 ml-4" /> {result.vote_count}
           </p>
         </div>
       </Link>

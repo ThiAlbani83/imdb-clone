@@ -27,9 +27,9 @@ export default function Card({ result }) {
           <h2 className="truncate text-lg font-bold">
             {result.title || result.name}
           </h2>
-          <p className="flex items-center xl:text-xs">
+          <p className="flex items-center 2xl:text-sm">
             {result.release_date || result.first_air_date}
-            <FiThumbsUp className="h-5  mr-2 ml-4" /> {result.vote_count}
+            <FiThumbsUp className="h-5 2xl:h-3 mr-2 ml-4" /> {result.vote_count}
           </p>
         </div>
       </Link>
