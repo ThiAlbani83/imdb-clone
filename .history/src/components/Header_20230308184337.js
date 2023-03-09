@@ -19,7 +19,7 @@ export default function Header() {
             Icon={BsFillInfoCircleFill} />
         </div>
 
-        <div className='flex gap-5 items-center'>
+        <div className='flex gap-3'>
           <DarkModeSwitch />
           <Link href='/'>
             <h2 className='text-2xl flex items-end gap-2'>
