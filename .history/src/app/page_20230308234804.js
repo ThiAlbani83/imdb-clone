@@ -1,4 +1,3 @@
-import Results from "@/components/Results";
 import next from "next";
 
 const API_KEY = process.env.API_KEY;
@@ -23,11 +22,7 @@ export default async function Home({ searchParams }) {
 
   return (
     <main>
-        <div>
-            <Results
-            results={results}
-            />
-        </div>
+      <h1>Welcome Home</h1>
     </main>
   );
 }
