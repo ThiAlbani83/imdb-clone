@@ -5,7 +5,7 @@ const API_KEY = process.env.API_KEY;
 
 async function getMovie(movieId) {
   const res = await fetch(
-    `https://api.themoviedb.org/3/movie/${movieId}?api_key=${API_KEY}&language=en-US`
+    `https://api.themoviedb.org/3/movie/${movieId}?api_key=${API_KEY}&language=pt-br`
   );
   return res.json();
 }

@@ -17,14 +17,14 @@ export default async function searchPage({ params }) {
 
   return (
   <div>
-    {results && results === 0 && (
+    {results && results ===0 && (
         <h1 className="text-center pt-6">
             No results found
         </h1>
     )}
 
     {results && <Results results={results} />}    
- 
+
   </div>
   )
 }

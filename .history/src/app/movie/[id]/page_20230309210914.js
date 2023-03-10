@@ -35,6 +35,7 @@ export default async function MoviePage({ params }) {
           <h2 className="text-lg mb-3 font-bold">
             {movie.title || movie.name}
           </h2>
+          <h2>Genre: {movie.genre[0].name}</h2>
           <p className="text-lg mb-3">
             <span className="font-semibold mr-1">Overview: </span>
             {movie.overview}

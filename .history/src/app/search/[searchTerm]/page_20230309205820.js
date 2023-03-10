@@ -24,7 +24,7 @@ export default async function searchPage({ params }) {
     )}
 
     {results && <Results results={results} />}    
- 
+
   </div>
   )
 }
