@@ -33,7 +33,7 @@ export default async function MoviePage({ params }) {
         />
         <div className="p2">
           <h2 className="text-lg mb-3 font-bold">
-            {movie.title || movie.original_name}
+            {movie.title || movie.name}
           </h2>
           <p className="text-lg mb-3">
             <span className="font-semibold mr-1">Overview: </span>
